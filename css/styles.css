@@ -125,3 +125,29 @@ article
     margin-right: 10px;
 
 }
+/******Contact***********/
+#contact
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#form,#map{
+    width: 49vw;
+}
+#form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+input
+ {
+    border: 2px solid #ececec;
+ }
+ textarea
+ {
+    border: 2px solid #ececec;
+    width: 100%;;
+ }
