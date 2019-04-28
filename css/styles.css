@@ -88,15 +88,19 @@ nav a
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 40px 0 40px 0;
 }
 .cards
 {
-    width:30%;
+    width:25%;
     height:300px;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 #card1
 {
@@ -121,6 +125,53 @@ nav a
 #card6
 {
     background-image: url(../img/tokyo.JPG);   
+}
+#data
+{
+    display: flex;
+    height: 80px;
+    background-color: #ffff0000;
+    justify-content: flex-end;
+}
+#price
+{
+    height: 80px;
+    background-color: yellow;
+    /* position: absolute; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#price p{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+#save
+{
+    width: 100%;
+    background-color: #001161;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#save p{
+    font-weight: 900;
+}
+#destination
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+#destination p{
+    margin-top: 10px;
 }
 /**About***/
 #about
