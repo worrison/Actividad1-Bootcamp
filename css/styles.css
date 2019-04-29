@@ -323,3 +323,87 @@ footer{
     background-color: #020225;
     color: white;
 } 
+@media only screen and (max-width: 600px)
+{
+    #menu
+    {
+        display: none;
+    }
+    /**section slider***/
+    #slider
+    {
+        flex-wrap: nowrap;
+    }
+    #slider span
+    {
+        margin-top: 30px;
+    }
+    #slider h2
+    {
+        font-size: 2.5em;
+    }
+    #main-message
+    {
+        margin: 90px 0 0 50px;
+    }
+    /**section travels**/
+    #travels
+    {
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+    /**Section about**/
+    #about
+    {
+        justify-content: center;
+
+    }
+    #about article
+    {
+        margin-right: 0px;
+    }
+    /**Section contact**/
+    #contact
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #map , #form
+    {
+        width: 90%;
+    }
+    #form input[type="text"]
+    {
+        width: 100%;
+    }
+    input[type="text"]:nth-child(even) {
+        margin-left: 0px;
+    }
+    /**Section Newsletter**/
+    #newsletter
+    {
+        display: flex;
+        height: 100%;
+        padding: 20px;
+        background-color: #020225;
+        color: white;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo h2:nth-child(odd)
+    {
+        display: none;
+    }
+    /**Footer**/
+    footer{
+        padding: 20px;
+    }
+    
+}
