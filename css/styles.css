@@ -1,7 +1,9 @@
 html
 {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;/*suavizar los scrolls para ir a los enlaces*/
 }
+
 nav
 {
     position: absolute;
@@ -56,6 +58,7 @@ nav a
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-attachment: fixed;
 }
 #slider h1
 {
@@ -100,6 +103,19 @@ nav a
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    transition:all 1.2s ease-in-out;
+    -webkit-transition:all 1.2s ease-in-out;
+    -moz-transition:all 1.2s ease-in-out;
+    -ms-transition:all 1.2s ease-in-out;
+    -o-transition:all 1.2s ease-in-out;
+}
+.cards:hover{
+    transform:rotate(720deg) scale(1.5,1.5);
+    -webkit-transform:rotate(720deg) scale(1.5,1.5);
+    -moz-transform:rotate(720deg) scale(1.5,1.5);
+    -ms-transform:rotate(720deg) scale(1.5,1.5);
+    -o-transform:rotate(720deg) scale(1.5,1.5);
 }
 #card1
 {
@@ -182,6 +198,7 @@ nav a
     display: flex;
     justify-content:flex-end;
     align-items: center;
+    background-attachment: fixed;
 }
 article
 {
