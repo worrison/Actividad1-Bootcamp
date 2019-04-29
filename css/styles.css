@@ -217,6 +217,18 @@ article
     display: flex;
     flex-wrap: wrap;
 }
+#map
+{
+    display: flex;
+    justify-content: center;
+}
+iframe
+{
+    border: 0;
+    margin: 40px 0 40px 0;
+    width: 90%;
+    height:450px;
+}
 #form,#map{
     width: 49vw;
 }
@@ -272,6 +284,18 @@ input[type="text"]
  div#information {
     flex-direction: column;
 }
+#newsletter a{
+    text-decoration: none;
+    color: white;
+}
+#newsletter p{
+    text-decoration: none;
+    color: white;
+}
+#newsletter input[type="email"]
+{
+    padding: 20px;
+}
  #form-news
  {
     display: flex;
@@ -284,6 +308,10 @@ input[type="text"]
     justify-content: space-around;
     align-items: center;
     width: 100%;
+ }
+ #help
+ {
+     flex-direction: column;
  }
  /***Footer**/
 footer{
