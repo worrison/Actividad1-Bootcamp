@@ -186,13 +186,31 @@ nav a
 }
 article
 {
-    width: 40%;
+    width: 500px;
     background-color: white;
     padding: 20px;
-    height: 80%;
-    margin-right: 10px;
+    margin-right: 50px;
 
 }
+#about h1
+{
+    font-size: 1.5em;
+}
+#about article h1::after{
+    content: "";
+    width: 30%;
+    height: 4px;
+    background-color: #FFEB3B;
+    display: block;
+  }
+#about input
+  {
+    padding: 20PX;
+    background-color: #020225;
+    color: YELLOW;
+    margin-top: 20PX;
+    border: 0px;
+  }
 /******Contact***********/
 #contact
 {
@@ -210,14 +228,31 @@ article
     flex-wrap: wrap;
     flex-direction: column;
 }
-input
+input[type="text"]
  {
     border: 2px solid #ececec;
+    margin-top: 20px;
+    height: 40px;
+ }
+ input[type="text"]:nth-child(even)/*Regla para que a todos los inputs de tipo texto que sean elementos pares les de un margen a la izquierda*/
+ {
+     margin-left: 40px;
  }
  textarea
  {
-    border: 2px solid #ececec;
+    border: 3px solid #ececec;
     width: 100%;
+    margin-top: 20px;
+ }
+ input[type="button"]
+ {
+    background-color: rgb(242, 242, 29);
+    /* margin-top: 100px; */
+    color: black;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 20px;
+    border: 0px;
  }
  /******Newsletter**********/
  
